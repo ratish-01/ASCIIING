@@ -2,7 +2,7 @@
 
 ASCIIING is a modern, high-performance web application that transforms live camera streams and static images into stunning ASCII art. Built with React and Vite, it features a real-time extraction engine with granular controls for resolution, contrast, and brightness.
 
-## ✨ Features
+## Features
 
 - **Live Camera Extraction**: Real-time ASCII conversion from your webcam.
 - **Image Upload**: Process any image into ASCII text.
@@ -14,7 +14,7 @@ ASCIIING is a modern, high-performance web application that transforms live came
   - **Contrast & Luminance**: Fine-tune the image pre-extraction.
   - **Inverse Polarity**: Toggle between dark and light themes.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v16.0.0 or higher)
@@ -40,11 +40,9 @@ Start the development server:
 npm run dev
 ```
 
-## 🛠️ Built With
+## Built With
 - **React** - Frontend framework
 - **Vite** - Build tool
 - **Tailwind CSS** - Styling
 - **HTML5 Canvas** - Image processing core
 
-## 📜 License
-This project is licensed under the MIT License.
