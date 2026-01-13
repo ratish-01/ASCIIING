@@ -1,16 +1,50 @@
-# React + Vite
+# ASCIIING - Advanced ASCII Art Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ASCIIING is a modern, high-performance web application that transforms live camera streams and static images into stunning ASCII art. Built with React and Vite, it features a real-time extraction engine with granular controls for resolution, contrast, and brightness.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Camera Extraction**: Real-time ASCII conversion from your webcam.
+- **Image Upload**: Process any image into ASCII text.
+- **Multiple Character Sets**: Choose from Standard, Simple, Matrix, Blocks, or Dots mappings.
+- **Structure-Preserved Copy**: Special logic ensures ASCII art maintains its structure when pasted into Notepad (Light BG) or Social Media (Dark BG/Discord/YouTube).
+- **Pro Controls**:
+  - **Extraction Detail**: Adjust the ASCII resolution.
+  - **Sensor Zoom**: Digital crop for focusing on details.
+  - **Contrast & Luminance**: Fine-tune the image pre-extraction.
+  - **Inverse Polarity**: Toggle between dark and light themes.
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v16.0.0 or higher)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ratish-01/ASCIIING.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ASCIIING
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Running Locally
+Start the development server:
+```bash
+npm run dev
+```
+
+## 🛠️ Built With
+- **React** - Frontend framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **HTML5 Canvas** - Image processing core
+
+## 📜 License
+This project is licensed under the MIT License.
